@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.hd {
+    background-image: url(/img/fundo.jpg);
+    background-position: center;
+}
+li {
+    padding: 5px;
+    border: solid 2px #ffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    text-decoration-style: none;
+    font-size: 20px;;   
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    
+    }
+li :hover {
+color: #1e96d6;
+
+}
+.contfoto {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: solid 4px #1e96d6;
+    
+}
+.container {
+    padding: 5px 30px;
+}
+h1 {
+    color: #1e96d6;
+    font-size: 30px;
+}
+.nomeCargo {
+    padding: 0 30px;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+.rodape {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+footer a :hover {
+    color: #1e96d6;
+}
